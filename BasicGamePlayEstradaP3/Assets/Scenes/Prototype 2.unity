@@ -544,7 +544,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
   m_PrefabInstance: {fileID: 1468553247}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &658043276
+--- !u!114 &658043279
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -651,13 +651,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6075095258648481307, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 936839524}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 658043276}
+      addedObject: {fileID: 658043279}
   m_SourcePrefab: {fileID: 100100000, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
 --- !u!1 &1590138454
 GameObject:
@@ -867,18 +871,6 @@ PrefabInstance:
     - target: {fileID: 97368055404596720, guid: d31a549dc9d59e04a8c33610967f3676, type: 3}
       propertyPath: m_Name
       value: Food_Pizza_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 5375631344462341885, guid: d31a549dc9d59e04a8c33610967f3676, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5375631344462341885, guid: d31a549dc9d59e04a8c33610967f3676, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5375631344462341885, guid: d31a549dc9d59e04a8c33610967f3676, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5375631344462341885, guid: d31a549dc9d59e04a8c33610967f3676, type: 3}
       propertyPath: m_LocalPosition.x
