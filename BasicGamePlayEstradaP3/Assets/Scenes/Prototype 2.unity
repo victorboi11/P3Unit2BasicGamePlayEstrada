@@ -565,18 +565,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 97368055404596720, guid: d31a549dc9d59e04a8c33610967f3676, type: 3}
   m_PrefabInstance: {fileID: 6445283860280312628}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &936839529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 936839524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3ed47bef078f2146bc0656bef7ec053, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,6 +846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Doe_01
       objectReference: {fileID: 0}
+    - target: {fileID: 9049272625414740764, guid: a146c26974eb847478a118d44c8b912e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -911,6 +903,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5669228620944024180, guid: 4792ba6441706d646952bb210c5cdf47, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6807686556713722634, guid: 4792ba6441706d646952bb210c5cdf47, type: 3}
       propertyPath: m_Name
       value: Animal_Moose_01
@@ -931,6 +927,10 @@ PrefabInstance:
     - target: {fileID: 97368055404596720, guid: d31a549dc9d59e04a8c33610967f3676, type: 3}
       propertyPath: m_Name
       value: Food_Pizza_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785491324202984960, guid: d31a549dc9d59e04a8c33610967f3676, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5375631344462341885, guid: d31a549dc9d59e04a8c33610967f3676, type: 3}
       propertyPath: m_LocalPosition.x
@@ -972,14 +972,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 9104071984151181267, guid: d31a549dc9d59e04a8c33610967f3676, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 97368055404596720, guid: d31a549dc9d59e04a8c33610967f3676, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 936839529}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d31a549dc9d59e04a8c33610967f3676, type: 3}
 --- !u!1001 &8171697307620232006
 PrefabInstance:
@@ -1011,7 +1007,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5823259256892218455, guid: 7664c828c8181584fb8bc4e03d56b484, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5823259256892218455, guid: 7664c828c8181584fb8bc4e03d56b484, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1019,7 +1015,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5823259256892218455, guid: 7664c828c8181584fb8bc4e03d56b484, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5823259256892218455, guid: 7664c828c8181584fb8bc4e03d56b484, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1032,6 +1028,10 @@ PrefabInstance:
     - target: {fileID: 5823259256892218455, guid: 7664c828c8181584fb8bc4e03d56b484, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8694582528297192626, guid: 7664c828c8181584fb8bc4e03d56b484, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1047,7 +1047,7 @@ SceneRoots:
   - {fileID: 992285706}
   - {fileID: 1468553247}
   - {fileID: 4780065372806938937}
-  - {fileID: 8171697307620232006}
   - {fileID: 2761407484864543056}
+  - {fileID: 8171697307620232006}
   - {fileID: 6445283860280312628}
   - {fileID: 2109763974}

@@ -863,7 +863,7 @@ GameObject:
   - component: {fileID: 6472126684867837784}
   - component: {fileID: -1339226816205838799}
   - component: {fileID: 9049272625414740764}
-  - component: {fileID: 2932799868868072393}
+  - component: {fileID: 8379018384454329787}
   m_Layer: 0
   m_Name: Animal_Doe_01
   m_TagString: Untagged
@@ -957,13 +957,13 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.13167922, y: 0.38077167, z: 0.41284132}
   m_Center: {x: -0.00065733196, y: 0.17924072, z: 0.04307742}
---- !u!114 &2932799868868072393
+--- !u!114 &8379018384454329787
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
